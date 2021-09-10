@@ -1,0 +1,99 @@
+.App{
+  text-align: center;
+  background: linear-gradient(to top left, #e7717d 0%, #c2cad0 100%);
+}
+
+.NavLinks{
+  margin-right: 2.5vmin;
+  color: #7E685A;
+  font-size: calc(10px + 2vmin);
+  text-decoration: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  vertical-align: middle;
+  height: inherit;
+  max-height: inherit;
+  display: inline-block;
+}
+
+.NavLinks:hover{
+  color: red;
+  opacity: .6;
+}
+
+.Logo{
+  border-radius: 250vmin;
+  min-height: 6vh;
+  max-height: inherit;
+  border: 4px #F0F8FF outset;
+  margin-right: 1.5vmin;
+  display: inline-block;
+}
+
+.Profile{
+  margin-top: 2vmin;
+  border-radius: 250vmin;
+  min-height: 25vh;
+  height: 45vh;
+  width: calc(300px + 10vw);
+  opacity: .6;
+  border: 15px outset grey;
+  background: white;
+}
+
+.Roles::before{
+  padding: 0.75vmin;
+  font-size: 2vmin;
+  font-weight: bold;
+  border-radius: 16px;
+  min-width: 10vmin;
+  max-width: 20vmin;
+  margin-top: 3vmin;
+  margin-left: 0.3vmin;
+  margin-right: 0.3vmin;
+  margin-bottom: 0.005vmin;
+  display: inline-block;
+  color: white;
+  background: transparent;
+  border: 3px black outset;
+}
+
+#GithubMaster::before{
+  background: grey;
+  content: "github-master";
+}
+
+#Team1::before{
+  background: red;
+  content: "Team-1 member";
+}
+
+#Facebook::before{
+  background: #5F9EA0;
+  content: "Facebook";
+}
+
+#Twitter::before{
+  background: #191970;
+  content: "Twitter"
+}
+
+#Github::before{
+  background: #663399;
+  content: "Github"
+}
+
+.ClickCSS{
+  padding: 0vmin;
+  margin-top: 5vmin;
+  font-size: calc(15px + 2vmin);
+  color: black;
+  text-shadow: 2px 3px #7E685A;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.ClickCSS:hover{
+  color: whitesmoke;
+  opacity: 0.6;
+}
+
