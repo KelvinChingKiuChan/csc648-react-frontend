@@ -15,10 +15,10 @@ var roles = [<a className="Badges" id={role} />,<a className="Badges" id="Team-1
 //Mandatory Section:
 //General Info (Mandatory) replace the default values with your desired content related
 //enter your name
-const name = "Damon is here"
+const name = "He (Damon) Chen"
 //change on top with import and link your image 
 //any amount of text to describe yourself
-const text = `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+const text = `He I'm He Chen but I prfer to go by Damon. My favoirte programming language is Python
              `
 
 
