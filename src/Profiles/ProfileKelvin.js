@@ -17,8 +17,8 @@ var roles = [<a className="Badges" id={role} />,<a className="Badges" id="Team-1
 const name = "Kelvin Ching Kiu Chan"
 //change on top with import and link your image 
 //any amount of text to describe yourself
-const text = `Hello, I am Kelvin and the front-end developer for this group.
-              If you haven't realized. I am not a really good designer lol.
+const text = `Hello, I am your frontend designer for this page and as you can tell, not a very
+              good designer :P
              `
 
 
@@ -33,8 +33,8 @@ const twitter = "https://twitter.com/?lang=en"
 const github = "https://github.com/"
 
 //these 2 will be the email and discord tag
-const email = ""
-const discord = ""
+const email = "chankelvin74@gmail.com"
+const discord = "You aint getting it"
 
 
 function ProfileKelvin() {

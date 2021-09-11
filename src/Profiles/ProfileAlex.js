@@ -14,11 +14,11 @@ var roles = [<a className="Badges" id={role} />,<a className="Badges" id="Team-1
 //Mandatory Section:
 //General Info (Mandatory) replace the default values with your desired content related
 //enter your name
-const name = "Default Value" 
+const name = "Alex Chau" 
 //change on top with import and link your image 
 const image = ProfilePic
 //any amount of text to describe yourself
-const text = "Default value" 
+const text = "The professional github master that we need. :DDDD" 
 
 
 //Media links Section: (Optional)
