@@ -70,4 +70,4 @@ function ProfileDamon() {
 <ProfileInfo id="test"></ProfileInfo>
 <FooterComp></FooterComp> */
 
-export default ProfileDamon@
+export default ProfileDamon

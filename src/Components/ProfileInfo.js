@@ -55,7 +55,7 @@ function ProfileInfo(props) {
                     <a className="Badges" href= {props.userTwitter} id="Twitter" />
                     <a className="Badges" href= {props.userGithub} id="Github" />
                 </p>
-                <ul>
+                <ul style={{paddingBottom: "10vmin"}}>
                     <li>
                         Email: {props.userEmail}
                     </li>
