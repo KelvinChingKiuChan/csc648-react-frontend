@@ -33,7 +33,7 @@
   margin-top: 2vmin;
   border-radius: 50%;;
   min-height: 25vh;
-  height: 45vh;
+  height: calc(175px + 32vmin);
   max-height: 50vh;
   width: calc(175px + 32vmin);
   opacity: 1;
@@ -47,7 +47,7 @@
   font-weight: none;
   border-radius: 16px;
   min-width: 10vmin;
-  width: 15vmin;
+  width: calc(75px + 10vmin);
   margin-top: 2.5vmin;
   margin-left: 0.5vmin;
   margin-right: 0.5vmin;
