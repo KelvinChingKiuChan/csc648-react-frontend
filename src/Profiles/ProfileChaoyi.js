@@ -15,12 +15,10 @@ var roles = [<a className="Badges" id={role} />,<a className="Badges" id="Team-1
 //Mandatory Section:
 //General Info (Mandatory) replace the default values with your desired content related
 //enter your name
-const name = "Default value"
+const name = "Chaoyi Ying"
 //change on top with import and link your image 
 //any amount of text to describe yourself
-const text = `Default
-              value
-             `
+const text = `CS major SFSU student`
 
 
 //Media links Section(Optional):
