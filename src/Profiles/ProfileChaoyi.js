@@ -31,11 +31,11 @@ const text = `Default
 //these 3 has to be links (No exceptions)
 const facebook = "https://www.facebook.com/"
 const twitter = "https://twitter.com/?lang=en"
-const github = "https://github.com/"
+const github = "https://github.com/ChaoyiYing"
 
 //these 2 will be the email and discord tag
-const email = ""
-const discord = ""
+const email = "cying1@mail.sfsu.edu"
+const discord = "Pikachu#8346"
 
 
 function ProfileChaoyi() {
