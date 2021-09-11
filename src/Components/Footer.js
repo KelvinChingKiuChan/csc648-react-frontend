@@ -6,14 +6,14 @@ const footerStyling={
     background: "#708090",
     padding: "2vmin",
     color: "black",
-    fontSize: "2vmin"
+    fontSize: "1vmin"
 }
 
 function FooterComp(){
     return(
         <Container fluid style={footerStyling}>
             <p>
-                Team One Website
+                @T1 site 2021
             </p>
         </Container>
     )

@@ -5,9 +5,9 @@
 
 .NavLinks{
   margin-right: 2.5vmin;
-  color: #7E685A;
+  color: grey;
   font-size: calc(10px + 2vmin);
-  text-decoration: none;
+  text-decoration:none;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   vertical-align: middle;
   height: inherit;
@@ -16,40 +16,41 @@
 }
 
 .NavLinks:hover{
-  color: red;
+  color: darkorange;
   opacity: .6;
 }
 
 .Logo{
   border-radius: 250vmin;
+  border: 5px outset grey;
   min-height: 6vh;
   max-height: inherit;
-  border: 4px #F0F8FF outset;
   margin-right: 1.5vmin;
   display: inline-block;
 }
 
 .Profile{
   margin-top: 2vmin;
-  border-radius: 250vmin;
+  border-radius: 50%;;
   min-height: 25vh;
   height: 45vh;
-  width: calc(300px + 10vw);
-  opacity: .6;
-  border: 15px outset grey;
+  max-height: 50vh;
+  width: calc(175px + 32vmin);
+  opacity: 1;
+  border: 1vmin outset grey;
   background: white;
 }
 
-.Roles::before{
-  padding: 0.75vmin;
-  font-size: 2vmin;
-  font-weight: bold;
+.Badges::before{
+  padding: 1vmin;
+  font-size: 1.7vmin;
+  font-weight: none;
   border-radius: 16px;
   min-width: 10vmin;
-  max-width: 20vmin;
-  margin-top: 3vmin;
-  margin-left: 0.3vmin;
-  margin-right: 0.3vmin;
+  width: 15vmin;
+  margin-top: 2.5vmin;
+  margin-left: 0.5vmin;
+  margin-right: 0.5vmin;
   margin-bottom: 0.005vmin;
   display: inline-block;
   color: white;
@@ -57,12 +58,37 @@
   border: 3px black outset;
 }
 
-#GithubMaster::before{
-  background: grey;
-  content: "github-master";
+#Team-Lead::before{
+  background:maroon;
+  content: "Team-1 Lead";
 }
 
-#Team1::before{
+#Github-Master::before{
+  background: grey;
+  content: "Github-Master";
+}
+
+#Frontend::before{
+  background:darkviolet;
+  content: "Frontend";
+}
+
+#Backend::before{
+  background:midnightblue;
+  content: "Backend";
+}
+
+#Database::before{
+  background:teal;
+  content: "Database";
+}
+
+#Scrum-Master::before{
+  background:sandybrown;
+  content: "Scrum-Master";
+}
+
+#Team-1::before{
   background: red;
   content: "Team-1 member";
 }
@@ -72,9 +98,17 @@
   content: "Facebook";
 }
 
+#Facebook:hover{
+  opacity: 0.6;
+}
+
 #Twitter::before{
   background: #191970;
   content: "Twitter"
+}
+
+#Twitter:hover{
+  opacity: 0.6;
 }
 
 #Github::before{
@@ -82,18 +116,33 @@
   content: "Github"
 }
 
+#Github:hover{
+  opacity: 0.6;
+}
+
 .ClickCSS{
-  padding: 0vmin;
-  margin-top: 5vmin;
-  font-size: calc(15px + 2vmin);
-  color: black;
-  text-shadow: 2px 3px #7E685A;
+  opacity: .5;
+  margin-bottom: 0vmin;
   text-decoration: none;
   display: inline-block;
+  min-height: 0vh;
+  height: calc(5px + 16vw);
+  max-height: 5vh;
+  max-width: 35vw;
+  width: calc(1px + 10vw);
+  padding: 0;
+  margin-top: 7vmin;
 }
 
 .ClickCSS:hover{
   color: whitesmoke;
-  opacity: 0.6;
+  opacity: 1;
+}
+
+.AboutCard{
+  background: linear-gradient(to bottom, #666699 0%, #ff99cc 100%);
+}
+.AboutCard:hover{
+  background: linear-gradient(to top, #006600 0%, #66ff99 100%);
 }
 

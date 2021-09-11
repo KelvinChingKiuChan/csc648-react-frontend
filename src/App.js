@@ -1,17 +1,46 @@
 import './App.css';
-import NBar from './Components/NBar';
-import Intro from './Components/Intro';
-import Info from './Components/Info'
-import FooterComp from './Components/Footer';
+
+import ProfileKelvin from './Profiles/ProfileKelvin'
+import ProfileAlex from './Profiles/ProfileAlex'
+import ProfileHugh from './Profiles/ProfileHugh'
+import ProfileChaoyi from './Profiles/ProfileChaoyi'
+import ProfileDamon from './Profiles/ProfileDamon'
+import ProfileSteven from './Profiles/ProfileSteven'
+
+import About from './About';
+
+import Switch from 'react-bootstrap/esm/Switch';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <NBar></NBar>
-      <Intro></Intro>
-      <Info id="test"></Info>
-      <FooterComp></FooterComp>
-    </div>
+    <Router>
+        <div className="App">
+      <Switch>
+          <Route exact path="/">
+            <About/>
+          </Route>
+          <Route path="/Kelvin">
+            <ProfileKelvin/>
+          </Route>
+          <Route path="/Hugh">
+            <ProfileHugh/>
+          </Route>
+          <Route path="/Alex">
+            <ProfileAlex/>
+          </Route>
+          <Route path="/Steven">
+            <ProfileSteven/>
+          </Route>
+          <Route path="/Damon">
+            <ProfileDamon/>
+          </Route>
+          <Route path="/Chaoyi">
+            <ProfileChaoyi/>
+          </Route>
+        </Switch>
+        </div>
+    </Router>
   );
 }
 
