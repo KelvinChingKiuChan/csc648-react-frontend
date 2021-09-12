@@ -29,7 +29,7 @@ const imageCSS = {
     marginRight: "7vmin",
     padding: "0.25vmin",
     minHeight: "350px",
-    minWidth: "410px",
+    minWidth: "390px",
     width: "15vw",
     height: "30vh",
     maxHeight: "70vh",
