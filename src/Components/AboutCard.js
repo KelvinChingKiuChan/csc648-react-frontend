@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 const roleCSS = {
     fontSize: "calc(35px + 0.25vw)",
+    marginTop: "0.5vmin",
     fontFamily: "Impact",
     color: "black",
     textDecoration: "underline",
@@ -35,7 +36,7 @@ const imageCSS = {
     borderRadius: "50%",
     border: "10px double black",
     background: "transparent",
-    marginBottom: "7vmin"
+    marginBottom: "3vmin"
 }
 
 // const cardCSS = {
@@ -76,13 +77,16 @@ function AboutCard(props) {
         <Link exact to={props.userLink}>
             <div className="card AboutCard" style={cardCSS}>
                 <p className="AboutProfileText">
-                        Click to see
+                    Click to see
                 </p>
                 <img className="card-img-top" src={props.userImage} style={imageCSS}>
                 </img>
                 <div class="card-body">
                     <p style={roleCSS}>
-                        Profile: @{props.userName}
+                        <p style={{fontSize: "calc(35px + 0.25vw)"}}>
+                            See Profile
+                        </p>
+                        @{props.userName}
                         <hr style={{ border: "0.05vmin solid white" }} />
                         <p>
                             {props.userRole}
