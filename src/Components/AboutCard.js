@@ -82,7 +82,7 @@ function AboutCard(props) {
                 </img>
                 <div class="card-body">
                     <p style={roleCSS}>
-                        @{props.userName}
+                        Profile: @{props.userName}
                         <hr style={{ border: "0.05vmin solid white" }} />
                         <p>
                             {props.userRole}
