@@ -14,14 +14,6 @@ const headingCSS = {
     color: "whitesmoke"
 }
 
-const clickMsgCSS={
-    fontSize: "calc(1px + 3.5vmin)",
-    marginBottom: "0vmin",
-    color: "white",
-    opacity: "0.7"
-
-}
-
 //calc(100px + 16vw)    calc(100px + 16vw)
 
 
@@ -45,10 +37,8 @@ function ProfileIntro(props) {
                 {props.userRoles}
             </p>
             <p>
-                <a href="#Info">
-                    <img className="ClickCSS" src= {Arrow}/>
-                    <div style={clickMsgCSS}>Click for Info </div>
-                </a>
+                <img className="ClickCSS" src= {Arrow}/>
+                <div className= "ClickMsgCSS">Click for info </div>
             </p>
         </Jumbotron>
         </a>

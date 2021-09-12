@@ -136,14 +136,23 @@
 }
 
 .ClickCSS:hover{
-  color: whitesmoke;
   opacity: 1;
+}
+
+.ClickMsgCSS{
+  font-size: calc(1px + 3.5vmin);
+  margin-bottom: 0vmin;
+  opacity: 0.7;
+  text-decoration: none;
+  color: white;
+}
+
+.ClickMsgCSS:hover{
+  color: black;
 }
 
 .AboutCard{
   background: linear-gradient(to bottom, #666699 0%, #ff99cc 100%);
-  
-  
 }
 
 .AboutCard:hover{
@@ -167,5 +176,6 @@
 .AboutCard:hover .AboutProfileText{
   opacity: 1;
 }
+
 
 
