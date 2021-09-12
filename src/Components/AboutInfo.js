@@ -1,16 +1,19 @@
 import React from "react";
 import { Container, Jumbotron } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 const introCSS = {
     justifyContent: "center",
     minHeight: "92.5vh",
+    background: "transparent",
+    paddingBottom: "20vmin"
 }
 
 const headingCSS = {
-    paddingTop: "1vmin",
-    fontSize: "calc(3px + 4vmin)",
-    fontFamily: "cursive",
-    color: "black"
+    paddingTop: "2vmin",
+    font: "calc(15px + 4vmin) bold",
+    fontFamily: "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif",
+    color: "darkslategrey"
 }
 
 //calc(100px + 16vw)    calc(100px + 16vw)
@@ -21,15 +24,15 @@ const headingCSS = {
 
 //elements in props
 
+
+//change back to non-fluid
+
 function AboutInfo(props) {
     return (
         <Jumbotron style={introCSS}>
-            <p>
                 <div style={headingCSS}>✨ The Masterminds (Team - 1) ✨</div>
-            </p>
-            <hr style={{ border: "0.25vmin double white" }} />
-            <Container>
-                {props.members}
+            <Container fluid style={{width: "80vw"}}>
+                    {props.members}
             </Container>
         </Jumbotron>
     )

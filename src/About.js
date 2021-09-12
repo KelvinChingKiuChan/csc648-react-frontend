@@ -20,42 +20,42 @@ import DefaultImg from './Components/Photos/LogoT1.png'
 const alex= <AboutCard
                 userImage= {Alex}
                 userLink= {"/Alex"}
-                userRole= {"Github-Master"}
+                userRole= {[<a className="Badges" id={"Github-Master"} />,<a className="Badges" id="Team-1" />]}
                 userName= {"Alex"}
             />
 
 const hugh= <AboutCard
             userImage= {Hugh}
             userLink= {"/Hugh"}
-            userRole= {"Scrum-Master"}
+            userRole= {[<a className="Badges" id={"Scrum-Master"} />,<a className="Badges" id="Team-1" />]}
             userName= {"Hugh"}
             />
 
 const kelvin = <AboutCard
             userImage= {Kelvin}
             userLink= {"/Kelvin"}
-            userRole= {"Frontend"}
+            userRole= {[<a className="Badges" id={"Frontend"} />,<a className="Badges" id="Team-1" />]}
             userName= {"Kelvin"}
             />
 
 const steven= <AboutCard
             userImage= {Steve}
             userLink= {"/Steven"}
-            userRole= {"Backend"}
+            userRole= {[<a className="Badges" id={"Backend"} />,<a className="Badges" id="Team-1" />]}
             userName= {"Steven"}
         />
 
 const chaoyi= <AboutCard
             userImage= {Chaoyi}
             userLink= {"/Chaoyi"}
-            userRole= {"Database"}
+            userRole= {[<a className="Badges" id={"Database"} />,<a className="Badges" id="Team-1" />]}
             userName= {"Chaoyi"}
         />
 
 const damon= <AboutCard
             userImage= {Damon}
             userLink= {"/Damon"}
-            userRole= {"Team-Lead"}
+            userRole= {[<a className="Badges" id={"Team-Lead"} />,<a className="Badges" id="Team-1" />]}
             userName= {"Damon"}
         />
 
@@ -65,7 +65,7 @@ function About() {
     return (
         <div id="About">
             <Navigation></Navigation>
-            <AboutInfo
+            <AboutInfo 
                 members={team1}
             />
             <FooterComp/>

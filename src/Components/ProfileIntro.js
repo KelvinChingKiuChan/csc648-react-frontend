@@ -34,6 +34,7 @@ const clickMsgCSS={
 
 function ProfileIntro(props) {
     return (
+        <a href= "#Info" style={{textDecoration: "none"}}>
         <Jumbotron style={introCSS}>
             <p>
                 <div style={headingCSS}>✨ {props.userName} ✨</div>
@@ -50,6 +51,7 @@ function ProfileIntro(props) {
                 </a>
             </p>
         </Jumbotron>
+        </a>
     )
 }
 

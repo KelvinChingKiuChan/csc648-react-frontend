@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 
 const footerStyling={
     height: "10vh",
-    background: "#708090",
+    background: "#1a1d1d",
     padding: "2vmin",
     color: "black",
     fontSize: "1vmin"

@@ -39,6 +39,7 @@
   opacity: 1;
   border: 1vmin outset grey;
   background: white;
+  scroll-behavior: smooth;
 }
 
 .Badges::before{
@@ -47,7 +48,7 @@
   font-weight: none;
   border-radius: 16px;
   min-width: 10vmin;
-  width: calc(75px + 10vmin);
+  width: calc(85px + 10vmin);
   margin-top: 2.5vmin;
   margin-left: 0.5vmin;
   margin-right: 0.5vmin;
@@ -141,8 +142,30 @@
 
 .AboutCard{
   background: linear-gradient(to bottom, #666699 0%, #ff99cc 100%);
+  
+  
 }
+
 .AboutCard:hover{
-  background: linear-gradient(to top, #006600 0%, #66ff99 100%);
+  background: linear-gradient(to bottom, #ff9966 0%, #ffcc66 100%);
+  opacity: 0.1;
 }
+
+.AboutProfileText{
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  opacity: 0;
+  font-size: calc(5px + 1vw);
+  height: 50%;
+  width: 100%;
+  top: 60%;
+  overflow: hidden;
+  color: black
+  
+}
+.AboutCard:hover .AboutProfileText{
+  opacity: 1;
+}
+
 
