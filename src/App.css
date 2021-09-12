@@ -132,7 +132,7 @@
   max-width: 35vw;
   width: calc(1px + 10vw);
   padding: 0;
-  margin-top: 7vmin;
+  margin-top: 5vmin;
 }
 
 .ClickCSS:hover{
@@ -165,12 +165,10 @@
   position: absolute;
   text-align: center;
   opacity: 0;
-  font-size: calc(5px + 1vw);
-  height: 50%;
-  width: 100%;
-  top: 60%;
+  font-size: calc(25px + 0.5vw);
+  margin: calc(75px + 4vw);
   overflow: hidden;
-  color: black
+  color: white
   
 }
 .AboutCard:hover .AboutProfileText{

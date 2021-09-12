@@ -9,7 +9,7 @@ const introCSS = {
 }
 
 const headingCSS = {
-    paddingTop: "5vmin",
+    paddingTop: "3vmin",
     fontSize: "calc(15px + 4vmin)",
     color: "whitesmoke"
 }
