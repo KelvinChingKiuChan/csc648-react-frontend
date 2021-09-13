@@ -8,6 +8,7 @@ import ProfileDamon from './Profiles/ProfileDamon'
 import ProfileSteven from './Profiles/ProfileSteven'
 
 import About from './About';
+import AppInfo from './Components/AppInfo';
 
 import Switch from 'react-bootstrap/esm/Switch';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
@@ -37,6 +38,9 @@ function App() {
           </Route>
           <Route path="/Chaoyi">
             <ProfileChaoyi/>
+          </Route>
+          <Route path="/AppInfo">
+            <AppInfo/>
           </Route>
         </Switch>
         </div>

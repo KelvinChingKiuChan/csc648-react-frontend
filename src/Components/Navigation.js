@@ -19,6 +19,7 @@ function Navigation() {
             <ul className="navbar-nav">
                 <li className="nav-item">
                     <Link className="NavLinks" exact to="/">About Us</Link>
+                    <Link className="NavLinks" exact to="/AppInfo">App</Link>
                 </li>
             </ul>
         </nav>
