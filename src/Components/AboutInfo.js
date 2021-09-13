@@ -30,19 +30,20 @@ const headingTextCSS = {
 function AboutInfo(props) {
     return (
         <Jumbotron style={introCSS}>
-            <a href= "#AboutInfo">
+            <a href="#AboutInfo">
                 <blockquote className="blockquote" style={{ paddingTop: "15vmin", paddingBottom: "10vmin" }}>
                     <p className="mb-0" style={headingTextCSS}>
                         No.1 Masterminds
                     </p>
-                    <cite className="blockquote-footer" style={{ fontSize: "calc(0px + 0vmin) bold" }} id= "AboutInfo">
+                    <cite className="blockquote-footer" style={{ fontSize: "calc(0px + 0vmin) bold" }} id="AboutInfo">
                         @Real Team Ones
                     </cite>
                 </blockquote>
-                <Container fluid style={{ width: "80vw", marginTop: "2vmin" }}>
-                    {props.members}
-                </Container>
             </a>
+            <Container fluid style={{ width: "80vw", marginTop: "2vmin" }}>
+                {props.members}
+            </Container>
+
         </Jumbotron>
 
     )
