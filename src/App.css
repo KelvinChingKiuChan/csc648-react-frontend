@@ -1,6 +1,6 @@
 .App{
   text-align: center;
-  background: linear-gradient(to top left, #e7717d 0%, #c2cad0 100%);
+  background: repeating-linear-gradient(#666699 0%, #ff99cc 50%, white 100%, white 100%);
 }
 
 .NavLinks{
