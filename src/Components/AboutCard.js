@@ -6,7 +6,7 @@ const roleCSS = {
     fontSize: "calc(35px + 0.25vw)",
     marginTop: "0.5vmin",
     fontFamily: "Impact",
-    color: "black",
+    color: "darkslategrey",
     textDecoration: "underline",
 }
 
@@ -16,10 +16,10 @@ const cardCSS = {
     Width: "30vw",
     maxHeight: "70vh",
     minHeight: "700px",
-    margin: "2vmin",
-    marginTop: "4vmin",
+    margin: "1vmin",
+    marginTop: "0vmin",
     boxShadow: "1px 2px grey",
-    opacity: "0.8"
+    opacity: "0.9"
 }
 
 const imageCSS = {
@@ -84,7 +84,7 @@ function AboutCard(props) {
                 <div class="card-body">
                     <p style={roleCSS}>
                         <p style={{fontSize: "calc(35px + 0.25vw)"}}>
-                            See Profile
+                            View Profile
                         </p>
                         @{props.userName}
                         <hr style={{ border: "0.05vmin solid white" }} />

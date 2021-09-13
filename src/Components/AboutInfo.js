@@ -1,19 +1,19 @@
 import React from "react";
 import { Container, Jumbotron } from "react-bootstrap";
-import { Col } from "react-bootstrap";
+import Logo from "./Photos/FixedLogo2.png"
 
 const introCSS = {
     justifyContent: "center",
     minHeight: "92.5vh",
-    background: "transparent",
     paddingBottom: "20vmin"
 }
 
-const headingCSS = {
-    paddingTop: "2vmin",
-    font: "calc(15px + 4vmin) bold",
-    fontFamily: "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif",
-    color: "darkslategrey"
+
+const headingTextCSS = {
+    font: "calc(45px + 4vmin) bold",
+    fontFamily: "Garamond, serif",
+    color: "#FFFACD",
+    display: "inline-block",
 }
 
 //calc(100px + 16vw)    calc(100px + 16vw)
@@ -30,11 +30,21 @@ const headingCSS = {
 function AboutInfo(props) {
     return (
         <Jumbotron style={introCSS}>
-                <div style={headingCSS}>✨ The Masterminds (Team - 1) ✨</div>
-            <Container fluid style={{width: "80vw"}}>
+            <a href= "#AboutInfo">
+                <blockquote className="blockquote" style={{ paddingTop: "15vmin", paddingBottom: "10vmin" }}>
+                    <p className="mb-0" style={headingTextCSS}>
+                        No.1 Masterminds
+                    </p>
+                    <cite className="blockquote-footer" style={{ fontSize: "calc(0px + 0vmin) bold" }} id= "AboutInfo">
+                        @Real Team Ones
+                    </cite>
+                </blockquote>
+                <Container fluid style={{ width: "80vw", marginTop: "2vmin" }}>
                     {props.members}
-            </Container>
+                </Container>
+            </a>
         </Jumbotron>
+
     )
 }
 

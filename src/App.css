@@ -85,7 +85,7 @@
 }
 
 #Scrum-Master::before{
-  background:sandybrown;
+  background: brown;
   content: "Scrum-Master";
 }
 
@@ -151,8 +151,16 @@
   color: black;
 }
 
+.AboutHeading{
+  background: #1a1d1d ;
+  height: 55vh;
+  color: white;
+  font-size: 30vmin;
+}
+
 .AboutCard{
-  background: linear-gradient(to bottom, #666699 0%, #ff99cc 100%);
+  background: repeating-linear-gradient(#666699 0%, #ff99cc 50%, white 100%, white 100%);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .AboutCard:hover{

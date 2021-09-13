@@ -63,14 +63,14 @@ var team1= [kelvin, steven, damon, chaoyi, hugh, alex]
 
 function About() {
     return (
-        <div id="About">
+        <div id="About" style= {{background: "repeating-linear-gradient(Indigo 0%, #663399 30vh, white 100%, white 100%)"}}>
             <Navigation></Navigation>
-            <AboutInfo 
+            <AboutInfo
                 members={team1}
             />
             <FooterComp/>
         </div>
     )
 }
-
+//repeating-linear-gradient(#7E685A, #C2B9B0 50vh, #e7717d 0%, #c2cad0 100%)
 export default About
