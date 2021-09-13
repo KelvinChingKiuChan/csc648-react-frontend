@@ -63,7 +63,7 @@ var team1= [kelvin, steven, damon, chaoyi, hugh, alex]
 
 function About() {
     return (
-        <div id="About" style= {{background: "repeating-linear-gradient(Indigo 0%, #663399 30vh, white 100%, white 100%)"}}>
+        <div id="About" style= {{background: "repeating-linear-gradient(Indigo 0%, #663399 60vh, white 100%, white 100%)"}}>
             <Navigation></Navigation>
             <AboutInfo
                 members={team1}

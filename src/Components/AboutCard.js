@@ -16,8 +16,8 @@ const cardCSS = {
     Width: "30vw",
     maxHeight: "70vh",
     minHeight: "700px",
-    margin: "1vmin",
-    marginBottom: "8vmin",
+    margin: "0.25vmin",
+    marginBottom: "9vmin",
     boxShadow: "1px 2px grey",
     opacity: "0.9"
 }
